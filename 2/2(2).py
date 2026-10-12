@@ -1,0 +1,8 @@
+m=list(map(int,input().split()))
+n=list(map(int,input().split()))
+m=list(set(m))
+n=list(set(n))
+m.sort()
+n.sort()
+print(m)
+print(n)

@@ -1,0 +1,8 @@
+a=list(input())
+b=list(input())
+print(a+b)
+print(3*a)
+print(b[0],b[-1])
+print(a[1:5])
+print(len(a),len(b),sep=',')
+print(min(a),max(b))
